@@ -1,0 +1,77 @@
+.description-tab-container {
+  background-color: #ddd;
+  width: 33.33%;
+  box-sizing: border-box;
+  padding: 20px;
+  text-align: center;
+  margin: 0 6px;
+  height: 97vh;
+}
+
+.tabs {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 10px;
+  width: 20vw;
+}
+
+.tabs button {
+  background-color: #b3aeae;
+  color: black;
+  padding: 10px 15px;
+  border: none;
+  cursor: pointer;
+  outline: none;
+  margin: 0 5px;
+  width: 31vw;
+  margin: 1vw;
+}
+
+.tabs button.active {
+  background-color: grey;
+  color: #000;
+}
+
+.form-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.form-container label {
+  margin-top: 10px;
+}
+
+.form-container input,
+.form-container select {
+  margin-bottom: 10px;
+  padding: 5px;
+}
+
+.form-container input[type="file"] {
+  display: none;
+}
+
+.form-container button {
+  margin-top: 10px;
+  padding: 8px 12px;
+  cursor: pointer;
+  background-color: #ddd;
+  border: none;
+  outline: none;
+}
+
+.form-container button:hover {
+  background-color: #bbb;
+}
+
+.form-container button.active {
+  background-color: transparent;
+  color: #000;
+}
+
+.yellow-bg {
+  background-color: yellow;
+}

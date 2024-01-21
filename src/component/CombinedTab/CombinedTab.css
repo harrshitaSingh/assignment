@@ -1,0 +1,47 @@
+.App {
+  text-align: center;
+}
+
+.tabs {
+  width: 100%;
+}
+
+.mainTabs:active {
+  background-color: blue;
+}
+/* .MuiTabs-root {
+  background-color: rgb(197, 194, 194);
+}
+
+.MuiTabs-indicator {
+  background-color: transparent; 
+}
+
+.MuiTabs-scroller {
+  display: flex;
+}
+
+.MuiTab-root {
+  flex: 1;
+  color: black !important;
+  margin-right: 10px;
+  text-decoration: none;
+}
+
+.MuiTab-root.Mui-selected {
+  color: white !important;
+  background-color: rgba(18, 12, 66, 0.836);
+  position: relative;
+  text-decoration: none;
+}
+
+.MuiTab-root.Mui-selected:after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  right: 0;
+  border-width: 8px;
+  border-style: solid;
+  border-color: transparent transparent transparent rgba(18, 12, 66, 0.836);
+  transform: translateY(-50%);
+} */

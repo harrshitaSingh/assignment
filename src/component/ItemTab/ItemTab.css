@@ -1,0 +1,12 @@
+.item-tab-container {
+  background-color: #ddd;
+  width: 30.33%;
+  box-sizing: border-box;
+  padding: 20px;
+  height: 97vh;
+}
+
+.item-tab-content {
+  margin-left: 10px;
+  padding: 20px;
+}
